@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+    place-items: center;
+    text-align: center;
+    display: grid;
+    background:yellow;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+#quadrado{
+    width: 200px;
+    height: 200px;
+    background: green;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.contained{
+    display: grid;
+    place-items: center;
+    width: 400px;
+    height: 600px;
+    background: #fff;
+    box-shadow: 0 0 20px #333;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+#resultado{
+    height: 30px;
+    width: 300px;
+    background: #333;
+    color: #fff;
+    border: none;
+    outline:none;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.botao{
+  height: 25px;
+ 
+}
